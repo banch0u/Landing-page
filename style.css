@@ -6,6 +6,7 @@ body{
 .custom-container{
   width: 75%;
   margin: auto;
+  margin-bottom: 150px;
 }
 header{
   margin: 0px 70px;
