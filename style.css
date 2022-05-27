@@ -62,3 +62,65 @@ hr{
   /* text-fill-color: transparent; */
   font-family: 'Manrope';
 }
+.jumboTitle{
+  font-family: 'Manrope';
+font-style: normal;
+font-weight: 800;
+font-size: 92px;
+line-height: 106px;
+/* or 115% */
+
+text-align: center;
+text-transform: capitalize;
+
+/* White */
+
+color: #FFFFFF;
+margin-bottom: 2rem;
+}
+.jumboLinks{
+  display: flex;
+  justify-content: center;
+}
+.jumboLinks .bookLink{
+  box-sizing: border-box;
+  display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 20px 40px;
+background-color: #5162FE;
+color: white;
+border-radius: 40px;
+text-transform: uppercase;
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 16px;
+text-decoration: none;
+margin-right: 16px;
+}
+.jumboLinks .learnLink{
+  box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 20px 40px;
+
+
+
+border: 1px solid rgba(255, 255, 255, 0.3);
+color: white;
+border-radius: 40px;
+text-transform: uppercase;
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 16px;
+text-decoration: none;
+}
