@@ -4,15 +4,13 @@ body{
   background-color: #1D1D1D;
 }
 .custom-container{
-  width: 75%;
-  margin: auto;
   margin-bottom: 150px;
 }
 section{
   margin-bottom: 150px;
 }
 header{
-  margin: 0px 70px;
+  margin-bottom: 150px;
 }
 nav{
   height: 72px;
@@ -160,7 +158,7 @@ margin-bottom: 2rem;
   font-family: 'Manrope';
 }
 .cont{
-  /* position: relative; */
+   position: relative;
   
 }
 .thing{
@@ -170,7 +168,6 @@ margin-bottom: 2rem;
   background: #1D1D1D;
   opacity: 0.45;
   backdrop-filter: blur(30px);
-  border-radius: 0px 0px 0px 16px;
   padding: 10px;
   
 }
@@ -200,3 +197,13 @@ text-align: center;
 
 color: #FFFFFF;
 }
+.nav-link{
+  color: #BFBFBF;
+}
+.nav-link:hover{
+  color: white;
+}
+.nav-link-active{
+  color: white;
+}
+
