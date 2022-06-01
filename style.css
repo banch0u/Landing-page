@@ -138,9 +138,13 @@ hr {
 
 }
 
+.borderless {
+  border: none
+}
+
 .card {
   background-color: transparent;
-  border: none
+  /* border: none */
 }
 
 .card-title {
