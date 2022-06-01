@@ -1,21 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
 
-body{
+body {
   background-color: #1D1D1D;
 }
-.custom-container{
+
+.custom-container {
   margin-bottom: 150px;
 }
-section{
+
+section {
   margin-bottom: 150px;
 }
-header{
+
+header {
   margin-bottom: 150px;
 }
-nav{
+
+nav {
   height: 72px;
 }
-ul li a{
+
+ul li a {
   font-family: 'Manrope';
   font-style: normal;
   font-weight: 500;
@@ -24,7 +29,8 @@ ul li a{
   text-align: center;
   color: #FFFFFF;
 }
-nav .register-btn{
+
+nav .register-btn {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -40,18 +46,19 @@ nav .register-btn{
   font-size: 16px;
   line-height: 16px;
   text-align: center;
-  text-transform: uppercase; 
-  color: #FFFFFF;  
+  text-transform: uppercase;
+  color: #FFFFFF;
   flex: none;
   order: 0;
   flex-grow: 0;
 }
-hr{
+
+hr {
   opacity: 0.1;
   border: 1px solid #FFFFFF;
 }
 
-.jumboP{
+.jumboP {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -64,27 +71,30 @@ hr{
   /* text-fill-color: transparent; */
   font-family: 'Manrope';
 }
-.jumboTitle{
+
+.jumboTitle {
   font-family: 'Manrope';
-font-style: normal;
-font-weight: 800;
-font-size: 92px;
-line-height: 106px;
-/* or 115% */
+  font-style: normal;
+  font-weight: 800;
+  font-size: 92px;
+  line-height: 106px;
+  /* or 115% */
 
-text-align: center;
-text-transform: capitalize;
+  text-align: center;
+  text-transform: capitalize;
 
-/* White */
+  /* White */
 
-color: #FFFFFF;
-margin-bottom: 2rem;
+  color: #FFFFFF;
+  margin-bottom: 2rem;
 }
-.jumboLinks{
+
+.jumboLinks {
   display: flex;
   justify-content: center;
 }
-.jumboLinks .bookLink{
+
+.jumboLinks .bookLink {
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
@@ -102,35 +112,38 @@ margin-bottom: 2rem;
   text-decoration: none;
   margin-right: 16px;
 }
-.jumboLinks .learnLink{
+
+.jumboLinks .learnLink {
   box-sizing: border-box;
   /* Auto layout */
-  
+
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   padding: 20px 40px;
-  
-  
-  
+
+
+
   border: 1px solid rgba(255, 255, 255, 0.3);
   color: white;
   border-radius: 40px;
   text-transform: uppercase;
-  
+
   font-family: 'Manrope';
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 16px;
   text-decoration: none;
-  
+
 }
-.card{
+
+.card {
   background-color: transparent;
-  border:none
+  border: none
 }
-.card-title{
+
+.card-title {
   font-style: normal;
   font-weight: 700;
   font-size: 72px;
@@ -140,16 +153,17 @@ margin-bottom: 2rem;
   font-family: 'Manrope';
 }
 
-.card-text{
+.card-text {
   font-family: 'Manrope';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
   color: #BFBFBF;
-  
+
 }
-.card-text-bold{
+
+.card-text-bold {
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
@@ -157,11 +171,13 @@ margin-bottom: 2rem;
   color: #FFFFFF;
   font-family: 'Manrope';
 }
-.cont{
-   position: relative;
-  
+
+.cont {
+  position: relative;
+
 }
-.thing{
+
+.thing {
   position: absolute;
   top: 81%;
   color: white;
@@ -169,41 +185,77 @@ margin-bottom: 2rem;
   opacity: 0.45;
   backdrop-filter: blur(30px);
   padding: 10px;
-  
+
 }
-.thing p{
+
+.thing p {
   margin: 0;
 }
-.timer{
+
+.timer {
   font-family: 'Manrope';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 16px;
-color: #FFFFFF;
-opacity: 0.7;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  color: #FFFFFF;
+  opacity: 0.7;
 }
-.timer-num{
+
+.timer-num {
   font-family: 'Manrope';
-font-style: normal;
-font-weight: 700;
-font-size: 36px;
-line-height: 36px;
-/* identical to box height, or 100% */
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 36px;
+  /* identical to box height, or 100% */
 
-text-align: center;
+  text-align: center;
 
-/* White */
+  /* White */
 
-color: #FFFFFF;
+  color: #FFFFFF;
 }
-.nav-link{
+
+.nav-link {
   color: #BFBFBF;
 }
-.nav-link:hover{
-  color: white;
-}
-.nav-link-active{
+
+.nav-link:hover {
   color: white;
 }
 
+.nav-link-active {
+  color: white;
+}
+
+.mini-title {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 76px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  width: 680px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.mini-title-text {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #BFBFBF;
+  width: 498px;
+  margin: auto;
+  margin-bottom: 56px;
+}
+
+.temp {
+  margin-bottom: 150px;
+}
