@@ -6,6 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Landing Page</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+    integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
     integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
@@ -17,19 +19,20 @@
     <header>
       <nav class="navbar navbar-expand-md justify-content-between">
         <a class="d-block" href="index.html"> <img src="img/Logo.png" alt="Logo" style="width: 120px;height: 26px;"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+          <i class="fas fa-bars"></i>
         </button>
-
-        <ul class="navbar-nav">
-          <li class="nav-item"><a class="nav-link nav-link-active" href="">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="">About</a></li>
-          <li class="nav-item"><a class="nav-link" href="">Schedule</a></li>
-          <li class="nav-item"><a class="nav-link" href="">Team</a></li>
-          <li class="nav-item"><a class="nav-link" href="">Contacts</a></li>
-        </ul>
-        <button class="register-btn" href="">REGISTER NOW</button>
+        <div class="collapse navbar-collapse justify-content-between bg-collapse" id="navbarCollapse">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link nav-link-active" href="">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="">Schedule</a></li>
+            <li class="nav-item"><a class="nav-link" href="">Team</a></li>
+            <li class="nav-item"><a class="nav-link" href="">Contacts</a></li>
+          </ul>
+          <button class="register-btn btn-sm-auto" href="">REGISTER NOW</button>
+        </div>
       </nav>
       <hr>
 
@@ -56,7 +59,7 @@
     </header>
 
     <section class="card-group">
-      <article class="card mr-5 ml-5 borderless">
+      <article class="card m-custom borderless">
         <h2 class="card-title">Events You'll Remember</h2>
         <h4 class="card-text card-text-bold mt-4 mb-4">We are a turnkey event agency in New York.</h4>
         <p class="card-text">EventiX is a leading event management company in the United States. We hold the highest
@@ -67,7 +70,7 @@
           between brands and
           targeted audience. Our team of experienced and talented event managers strive to deliver stellar results.</p>
       </article>
-      <figure class="card mr-5 ml-5">
+      <figure class="card m-custom borderless">
         <img src="img/event image.png" alt="event" class="cont">
         <!-- <div class="d-flex thing">
           <div class="ml-4 text-center">

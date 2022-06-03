@@ -12,6 +12,12 @@ section {
   margin-bottom: 150px;
 }
 
+@media screen and (max-width: 767px) {
+  section {
+    margin-bottom: 75px;
+  }
+}
+
 header {
   margin-bottom: 150px;
 }
@@ -19,6 +25,23 @@ header {
 nav {
   height: 72px;
 }
+
+@media screen and (max-width: 767px) {
+  .bg-collapse {
+    background-color: black;
+    opacity: 0.8;
+    padding: 2rem;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-top: 1rem;
+  }
+
+  .btn-sm-auto {
+    margin: auto;
+  }
+}
+
+
 
 ul li a {
   font-family: 'Manrope';
@@ -111,6 +134,7 @@ hr {
   line-height: 16px;
   text-decoration: none;
   margin-right: 16px;
+  text-align: center;
 }
 
 .jumboLinks .learnLink {
@@ -135,6 +159,7 @@ hr {
   font-size: 16px;
   line-height: 16px;
   text-decoration: none;
+  text-align: center;
 
 }
 
@@ -145,6 +170,21 @@ hr {
 .card {
   background-color: transparent;
   /* border: none */
+}
+
+.m-custom {
+  margin-left: 5em;
+  margin-right: 5em;
+}
+
+@media screen and (max-width: 767px) {
+  .m-custom {
+    margin: unset;
+  }
+
+  .card-title {
+    text-align: center;
+  }
 }
 
 .card-title {
@@ -242,7 +282,7 @@ hr {
   text-align: center;
   text-transform: capitalize;
   color: #FFFFFF;
-  width: 680px;
+  width: 67%;
   margin: auto;
   margin-bottom: 20px;
 }
@@ -255,11 +295,21 @@ hr {
   line-height: 26px;
   text-align: center;
   color: #BFBFBF;
-  width: 498px;
+  width: 54%;
   margin: auto;
   margin-bottom: 56px;
 }
 
+@media screen and (max-width: 767px) {
+  .mini-title {
+    width: unset;
+  }
+
+  .mini-title-text {
+    width: unset;
+  }
+}
+
 .temp {
-  margin-bottom: 150px;
+  /* margin-bottom: 150px; */
 }
