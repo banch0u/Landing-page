@@ -173,9 +173,10 @@ hr {
 }
 
 .m-custom {
-  margin-left: 5em;
+  /* margin-left: 5em; */
   margin-right: 5em;
 }
+
 
 @media screen and (max-width: 767px) {
   .m-custom {
@@ -217,7 +218,7 @@ hr {
 }
 
 .cont {
-  position: relative;
+  /* position: relative; */
 
 }
 
