@@ -314,19 +314,33 @@ hr {
 .temp {
   /* margin-bottom: 150px; */
 }
-.slider{
+
+.slider {
   display: flex;
   align-items: flex-end;
 }
-.slider-item{
+
+.slider-item {
   width: 33%;
 }
-.slider-overlay{
+
+.slider-overlay {
   position: absolute;
   width: 100%;
   height: 100%;
   background: linear-gradient(180deg, rgba(29, 29, 29, 0) 20.38%, #1D1D1D 104.37%);
 }
-.slider-active{
+
+.slider-active {
   width: 41%;
+}
+
+.customArrow {
+  margin: auto;
+  background: rgba(255, 255, 255, 0.3);
+  border: 1px solid #FFFFFF;
+  backdrop-filter: blur(8px);
+  padding: 5px;
+  border-radius: 100%;
+  color: white;
 }
