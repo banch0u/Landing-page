@@ -321,7 +321,7 @@ hr {
 }
 
 .slider-item {
-  width: 33%;
+  width: 30%;
 }
 
 .slider-overlay {
@@ -335,12 +335,32 @@ hr {
   width: 41%;
 }
 
-.customArrow {
-  margin: auto;
+.customArrowBtm {
+  margin-top: auto;
+  margin-bottom: auto;
+  background: none;
+  border: none;
+}
+.customArrow{
   background: rgba(255, 255, 255, 0.3);
-  border: 1px solid #FFFFFF;
   backdrop-filter: blur(8px);
-  padding: 5px;
+  border: 1px solid #FFFFFF;
   border-radius: 100%;
   color: white;
+  padding: 5px;
+
+
+
 }
+/* #slider0{
+  transform: translateX(110%);
+}
+#slider1{
+
+  transform: translateX(110%);
+}
+#slider2{
+  transform: translateX(-220%);
+
+
+} */
