@@ -397,3 +397,33 @@ hr {
   transform: translateX(230%);
   z-index: 30;
 }
+@media screen and (max-width: 1199px) {
+  .customArrowBtm {
+    top: 160px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .customArrowBtm {
+    top: 115px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .slider{
+    width: 90%;
+  }
+  .customArrowBtm {
+    display: none;
+  }
+  #slider0{
+    display: none;
+  }
+  #slider1{
+    transform: translateX(0);
+    width: 100%;
+    
+  }
+  #slider2{
+    display: none;
+  }
+  
+}
