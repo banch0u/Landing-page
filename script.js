@@ -1,3 +1,6 @@
+
+// slider's java script
+
 const leftArrowKey = document.querySelector('#leftArrow');
 const rightArrowKey = document.querySelector('#rightArrow');
 
@@ -32,5 +35,40 @@ leftArrowKey.addEventListener('click', function () {
     $('#leftArrow').prop('disabled', false);
   }, 700);
 
+});
+
+
+// tab's java script
+const tab1 = document.querySelector('#day1');
+const tab2 = document.querySelector('#day2');
+const tab3 = document.querySelector('#day3');
+
+
+let activeTab = 1;
+
+tab1.addEventListener('click', function () {
+  if (activeTab != 1) {
+    tab2.classList.remove('active-tab');
+    tab3.classList.remove('active-tab');
+    tab1.classList.add('active-tab');
+    activeTab = 1;
+
+  }
+});
+tab2.addEventListener('click', function () {
+  if (activeTab != 2) {
+    tab1.classList.remove('active-tab');
+    tab3.classList.remove('active-tab');
+    tab2.classList.add('active-tab');
+    activeTab = 2;
+  }
+});
+tab3.addEventListener('click', function () {
+  if (activeTab != 3) {
+    tab1.classList.remove('active-tab');
+    tab2.classList.remove('active-tab');
+    tab3.classList.add('active-tab');
+    activeTab = 3;
+  }
 });
 

@@ -79,6 +79,9 @@ ul li a {
   order: 0;
   flex-grow: 0;
 }
+.register-btn:hover{
+background: #1D1D1D;
+}
 
 hr {
   opacity: 0.1;
@@ -140,6 +143,10 @@ hr {
   margin-right: 16px;
   text-align: center;
 }
+.bookLink:hover{
+  background-color: #3044fb;
+
+}
 
 .jumboLinks .learnLink {
   box-sizing: border-box;
@@ -165,6 +172,10 @@ hr {
   text-decoration: none;
   text-align: center;
 
+}
+.learnLink:hover{
+  background: rgba(255, 255, 255, 0.1);
+  
 }
 
 .borderless {
@@ -499,8 +510,10 @@ hr {
 
   color: #BFBFBF;
 }
-
-#day1 {
+.active-tab{
   border-bottom: 2px solid white;
   color: white;
+}
+#day1 {
+ 
 }
