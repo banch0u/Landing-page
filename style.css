@@ -53,7 +53,7 @@ ul li a {
   color: #FFFFFF;
 }
 
-nav .register-btn {
+.register-btn {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -312,7 +312,7 @@ hr {
 }
 
 .temp {
-  /* margin-bottom: 150px; */
+  margin-bottom: 540px;
 }
 
 .slider {
@@ -421,4 +421,29 @@ hr {
 
 
 
+}
+
+.mini-left-title {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 76px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+
+.mini-left-text {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #BFBFBF;
+  margin-bottom: 30px;
+}
+
+.schedule {
+  width: 30%;
 }
