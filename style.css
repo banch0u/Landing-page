@@ -4,6 +4,10 @@ body {
   background-color: #1D1D1D;
 }
 
+a {
+  display: block;
+}
+
 .custom-container {
   margin-bottom: 150px;
 }
@@ -444,6 +448,59 @@ hr {
   margin-bottom: 30px;
 }
 
+.schedule-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.schedule-tabs {
+  width: 60%;
+}
+
 .schedule {
   width: 30%;
+}
+
+.day-tabs {
+  display: flex;
+  color: #717171;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+  cursor: pointer;
+
+}
+
+.day-tab {
+  width: 33.3%;
+  border-bottom: 2px solid #717171;
+  padding-bottom: 15px;
+
+}
+
+.day-number {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 28px;
+}
+
+.month-week {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+
+
+  color: #BFBFBF;
+}
+
+#day1 {
+  border-bottom: 2px solid white;
+  color: white;
 }

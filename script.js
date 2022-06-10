@@ -33,3 +33,4 @@ leftArrowKey.addEventListener('click', function () {
   }, 700);
 
 });
+
