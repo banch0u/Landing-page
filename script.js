@@ -12,7 +12,12 @@ rightArrowKey.addEventListener('click', function () {
   slider[1].style = "transform: translateX(230%);z-index: 50;"
   slider[2].style = "transform: translateX(6%);z-index: 30;"
   let tempSlide = slider.pop();
+
   slider.unshift(tempSlide);
+  $('#rightArrow').prop('disabled', true);
+  setTimeout(function () {
+    $('#rightArrow').prop('disabled', false);
+  }, 700);
 });
 
 leftArrowKey.addEventListener('click', function () {
@@ -21,4 +26,10 @@ leftArrowKey.addEventListener('click', function () {
   slider[2].style = "transform: translateX(119%);z-index: 80;"
   let tempSlide = slider.shift();
   slider.push(tempSlide);
+
+  $('#leftArrow').prop('disabled', true);
+  setTimeout(function () {
+    $('#leftArrow').prop('disabled', false);
+  }, 700);
+
 });
