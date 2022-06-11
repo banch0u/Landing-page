@@ -79,8 +79,9 @@ ul li a {
   order: 0;
   flex-grow: 0;
 }
-.register-btn:hover{
-background: #1D1D1D;
+
+.register-btn:hover {
+  background: #1D1D1D;
 }
 
 hr {
@@ -143,7 +144,8 @@ hr {
   margin-right: 16px;
   text-align: center;
 }
-.bookLink:hover{
+
+.bookLink:hover {
   background-color: #3044fb;
 
 }
@@ -173,9 +175,10 @@ hr {
   text-align: center;
 
 }
-.learnLink:hover{
+
+.learnLink:hover {
   background: rgba(255, 255, 255, 0.1);
-  
+
 }
 
 .borderless {
@@ -350,6 +353,38 @@ hr {
 
 }
 
+.slider-texts {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 100%;
+  height: 100%;
+}
+
+.slider-title {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 28px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.slider-text {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #FFFFFF;
+  width: 89%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .slider-overlay {
   position: absolute;
   width: 100%;
@@ -510,10 +545,26 @@ hr {
 
   color: #BFBFBF;
 }
-.active-tab{
+
+.active-tab {
   border-bottom: 2px solid white;
   color: white;
 }
-#day1 {
- 
+
+.timeline {
+  width: 100%;
+}
+
+.timeline-item {
+  display: flex;
+}
+
+.time-period {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  color: #BFBFBF;
+  width: 30%;
 }
