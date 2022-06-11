@@ -553,10 +553,17 @@ hr {
 
 .timeline {
   width: 100%;
+  display: none;
+}
+
+.timeline-active {
+  display: block;
 }
 
 .timeline-item {
   display: flex;
+  margin-top: 40px;
+  justify-content: flex-start;
 }
 
 .time-period {
@@ -567,4 +574,32 @@ hr {
   line-height: 16px;
   color: #BFBFBF;
   width: 30%;
+}
+
+.timeline-title {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+
+  color: #FFFFFF;
+}
+
+.timeline-text {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #BFBFBF;
+}
+
+.timeline-des {
+  padding-left: 10px;
+  width: 70%;
+}
+
+.timeline-bullet {
+  color: #FFCF96;
 }

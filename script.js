@@ -43,6 +43,10 @@ const tab1 = document.querySelector('#day1');
 const tab2 = document.querySelector('#day2');
 const tab3 = document.querySelector('#day3');
 
+const timeline1 = document.querySelector('#dayOneSchedule');
+const timeline2 = document.querySelector('#dayTwoSchedule');
+const timeline3 = document.querySelector('#dayThreeSchedule');
+
 
 let activeTab = 1;
 
@@ -51,8 +55,10 @@ tab1.addEventListener('click', function () {
     tab2.classList.remove('active-tab');
     tab3.classList.remove('active-tab');
     tab1.classList.add('active-tab');
+    timeline2.classList.remove('timeline-active');
+    timeline3.classList.remove('timeline-active');
+    timeline1.classList.add('timeline-active');
     activeTab = 1;
-
   }
 });
 tab2.addEventListener('click', function () {
@@ -60,6 +66,9 @@ tab2.addEventListener('click', function () {
     tab1.classList.remove('active-tab');
     tab3.classList.remove('active-tab');
     tab2.classList.add('active-tab');
+    timeline1.classList.remove('timeline-active');
+    timeline3.classList.remove('timeline-active');
+    timeline2.classList.add('timeline-active');
     activeTab = 2;
   }
 });
@@ -68,6 +77,9 @@ tab3.addEventListener('click', function () {
     tab1.classList.remove('active-tab');
     tab2.classList.remove('active-tab');
     tab3.classList.add('active-tab');
+    timeline1.classList.remove('timeline-active');
+    timeline2.classList.remove('timeline-active');
+    timeline3.classList.add('timeline-active');
     activeTab = 3;
   }
 });
