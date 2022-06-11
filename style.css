@@ -499,6 +499,9 @@ hr {
   color: #BFBFBF;
   margin-bottom: 30px;
 }
+.download-btn{
+  margin-bottom: 40px;
+}
 
 .schedule-section {
   display: flex;
@@ -616,4 +619,35 @@ hr {
     flex-direction: column;
     align-items: center;
   }
+  .mini-left-title{
+    text-align: center;
+  }
+  .mini-left-text{
+    text-align: center;
+  }
+  .download-btn{
+    margin: auto;
+    margin-bottom: 40px;
+  }
+  .schedule {
+    width: 95%;
+  }
+  .schedule-tabs {
+    width: 95%;
+  }
+  .temp {
+    margin-bottom: 400px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .schedule {
+    width: 100%;
+  }
+  .schedule-tabs {
+    width: 100%;
+  }
+  .temp {
+    margin-bottom: 210px;
+  }
+
 }
