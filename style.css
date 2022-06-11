@@ -362,6 +362,12 @@ hr {
   height: 100%;
 }
 
+@media screen and (max-width: 991px) {
+  .slider-texts {
+    display: none;
+  }
+}
+
 .slider-title {
   font-family: 'Manrope';
   font-style: normal;
@@ -602,4 +608,12 @@ hr {
 
 .timeline-bullet {
   color: #FFCF96;
+}
+
+@media screen and (max-width: 991px) {
+  .schedule-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
