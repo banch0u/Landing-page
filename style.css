@@ -226,6 +226,7 @@ hr {
 
 }
 
+
 .card-text-bold {
   font-style: normal;
   font-weight: 600;
@@ -649,5 +650,43 @@ hr {
   .temp {
     margin-bottom: 210px;
   }
+}
 
+.cardo-title{
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 36px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+.card-header{
+  padding: 20px 30px;
+background: #1b1b1b;
+
+}
+.card-price{
+background: #272727;
+}
+.mk{
+  padding: 65px 35px;
+
+}
+.mk i{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.mk span{
+  font-family: 'Manrope';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 16px;
+color: #E5E5E5;
+}
+.get-ticket-btn{
+  margin: auto;
+  background: #1D1D1D;
+  margin-bottom: 30px ;
 }
