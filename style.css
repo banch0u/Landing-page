@@ -500,7 +500,8 @@ hr {
   color: #BFBFBF;
   margin-bottom: 30px;
 }
-.download-btn{
+
+.download-btn {
   margin-bottom: 40px;
 }
 
@@ -620,39 +621,52 @@ hr {
     flex-direction: column;
     align-items: center;
   }
-  .mini-left-title{
+
+  .mini-left-title {
     text-align: center;
   }
-  .mini-left-text{
+
+  .mini-left-text {
     text-align: center;
   }
-  .download-btn{
+
+  .download-btn {
     margin: auto;
     margin-bottom: 40px;
   }
+
   .schedule {
     width: 95%;
   }
+
   .schedule-tabs {
     width: 95%;
   }
+
   .temp {
     margin-bottom: 400px;
   }
 }
+
 @media screen and (max-width: 767px) {
   .schedule {
     width: 100%;
   }
+
   .schedule-tabs {
     width: 100%;
   }
+
   .temp {
     margin-bottom: 210px;
   }
 }
 
-.cardo-title{
+.card-group {
+  margin-top: 80px;
+}
+
+.cardo-title {
   font-family: 'Manrope';
   font-style: normal;
   font-weight: 700;
@@ -661,32 +675,63 @@ hr {
   text-transform: capitalize;
   color: #FFFFFF;
 }
-.card-header{
+
+.card-header-black {
   padding: 20px 30px;
-background: #1b1b1b;
+  background: #1b1b1b;
 
 }
-.card-price{
-background: #272727;
+
+.card-header-pink {
+  padding: 20px 30px;
+  background: #F36B7F;
+
 }
-.mk{
+
+.card-header-green {
+  padding: 20px 30px;
+  background: #70D18C;
+
+}
+
+.pink-icon i {
+  color: #F36B7F;
+}
+
+.green-icon i {
+  color: #70D18C;
+}
+
+.card-price {
+  background: #272727;
+}
+
+.mk {
   padding: 65px 35px;
 
 }
-.mk i{
+
+.mk i {
   margin-top: 20px;
   margin-bottom: 20px;
 }
-.mk span{
+
+.mk span {
   font-family: 'Manrope';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 16px;
-color: #E5E5E5;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #E5E5E5;
 }
-.get-ticket-btn{
+
+.get-ticket-btn {
   margin: auto;
   background: #1D1D1D;
-  margin-bottom: 30px ;
+  margin-bottom: 30px;
+  width: 85%;
+}
+
+.get-ticket-btn:hover {
+  background: #5162FE;
 }
