@@ -2,6 +2,7 @@
 
 body {
   background-color: #1D1D1D;
+  overflow-x: hidden;
 }
 
 a {
@@ -435,9 +436,6 @@ hr {
   border-radius: 100%;
   color: white;
   padding: 5px;
-
-
-
 }
 
 #slider0 {
@@ -734,4 +732,116 @@ hr {
 
 .get-ticket-btn:hover {
   background: #5162FE;
+}
+
+.slider1 {
+  width: 100%;
+  position: relative;
+
+
+}
+
+.slider-item1 {
+  width: 85%;
+  background: #272727;
+  padding: 70px 100px;
+  padding-bottom: 130px;
+  border-radius: 18px;
+  display: flex;
+  position: absolute;
+
+}
+
+.slider-item1 img {
+  width: 45%;
+}
+
+.slider-content1 {
+  margin-left: 60px;
+}
+
+.slider-title1 {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 28px;
+  color: #FFFFFF;
+}
+
+.slider-subtitle1 {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  color: #BFBFBF;
+}
+
+.slider-text1 {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #F0F0F0;
+
+}
+
+#slider10 {
+  transform: translateX(0%);
+}
+
+#slider11 {
+  transform: translateX(110%);
+}
+
+#slider12 {
+  transform: translateX(220%);
+}
+
+
+
+.slide-btns {
+  height: 100%;
+  width: 100%;
+}
+
+.slide-btns button {
+  position: absolute;
+}
+
+#leftArrow1 {
+  top: 250px;
+  left: 0%;
+}
+
+#rightArrow1 {
+  top: 250px;
+  left: 85%;
+}
+
+.customArrowBtm1 {
+  margin-top: auto;
+  margin-bottom: auto;
+  background: none;
+  border: none;
+  z-index: 100;
+  position: absolute;
+}
+
+.customArrow1 {
+  background: #1D1D1D;
+  backdrop-filter: blur(4px);
+  border-radius: 100%;
+  color: white;
+  padding: 25px;
+  border: solid 1px white;
+
+
+}
+
+.customArrow1:hover {
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(8px);
 }
