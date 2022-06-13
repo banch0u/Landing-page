@@ -84,3 +84,73 @@ tab3.addEventListener('click', function () {
   }
 });
 
+
+// slider1's java script
+
+const leftArrowKey1 = document.querySelector('#leftArrow1');
+const rightArrowKey1 = document.querySelector('#rightArrow1');
+
+let slider10 = document.querySelector('#slider10');
+let slider11 = document.querySelector('#slider11');
+let slider12 = document.querySelector('#slider12');
+
+let slider10pos = 0;
+let slider11pos = 110;
+let slider12pos = 220;
+
+let activeSlide = 0;
+
+rightArrowKey1.addEventListener('click', function () {
+
+  if (activeSlide != 2) {
+    slider10pos -= 110;
+    slider11pos -= 110;
+    slider12pos -= 110;
+    slider10.style = `transform: translateX(${slider10pos}%);`;
+    slider11.style = `transform: translateX(${slider11pos}%);`;
+    slider12.style = `transform: translateX(${slider12pos}%);`;
+    activeSlide++;
+  } else {
+    slider10pos = 0;
+    slider11pos = 110;
+    slider12pos = 220;
+    slider10.style = `transform: translateX(${slider10pos}%);`;
+    slider11.style = `transform: translateX(${slider11pos}%);`;
+    slider12.style = `transform: translateX(${slider12pos}%);`;
+    activeSlide = 0;
+  }
+  $('#rightArrow1').prop('disabled', true);
+  setTimeout(function () {
+    $('#rightArrow1').prop('disabled', false);
+  }, 1000);
+});
+
+leftArrowKey1.addEventListener('click', function () {
+
+  if (activeSlide != 0) {
+    slider10pos += 110;
+    slider11pos += 110;
+    slider12pos += 110;
+    slider10.style = `transform: translateX(${slider10pos}%);`;
+    slider11.style = `transform: translateX(${slider11pos}%);`;
+    slider12.style = `transform: translateX(${slider12pos}%);`;
+    activeSlide--;
+  }
+  else {
+    slider10pos = -220;
+    slider11pos = -110;
+    slider12pos = 0;
+    slider10.style = `transform: translateX(${slider10pos}%);`;
+    slider11.style = `transform: translateX(${slider11pos}%);`;
+    slider12.style = `transform: translateX(${slider12pos}%);`;
+    activeSlide = 2;
+  }
+
+  $('#leftArrow1').prop('disabled', true);
+  setTimeout(function () {
+    $('#leftArrow1').prop('disabled', false);
+  }, 1000);
+
+});
+
+

@@ -750,10 +750,15 @@ hr {
   display: flex;
   position: absolute;
 
+  transition: transform 1s;
+
+
 }
 
 .slider-item1 img {
   width: 45%;
+  height: auto;
+  object-fit: contain
 }
 
 .slider-content1 {
