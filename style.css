@@ -741,6 +741,8 @@ hr {
 
 }
 
+
+
 .slider-item1 {
   width: 85%;
   background: #272727;
@@ -876,9 +878,10 @@ hr {
   margin-bottom: 920px;
 }
 
-footer {
+.footer-container {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 70px;
 }
 
 .footer-logo {
@@ -939,4 +942,57 @@ footer article form input {
   background: none;
   border: none;
   border-bottom: solid 1px #7c7c7c;
+  color: #7c7c7c;
+}
+
+.socials {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.socials div {
+  display: flex;
+}
+
+.socials p {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #E5E5E5;
+}
+
+.socials div a {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #BFBFBF;
+  margin-right: 35px;
+}
+
+.socials div a i {
+  margin-right: 10px;
+}
+
+
+.socials div a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+@media screen and (max-width: 991px) {
+
+
+  .tempo {
+    margin-bottom: 0px;
+  }
+
+  .slider1 {
+    display: none;
+  }
 }
