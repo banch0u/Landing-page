@@ -100,6 +100,11 @@ let slider12pos = 220;
 
 let activeSlide = 0;
 
+let dot0 = document.querySelector('#dot0');
+let dot1 = document.querySelector('#dot1');
+let dot2 = document.querySelector('#dot2');
+
+
 rightArrowKey1.addEventListener('click', function () {
 
   if (activeSlide != 2) {
@@ -110,6 +115,17 @@ rightArrowKey1.addEventListener('click', function () {
     slider11.style = `transform: translateX(${slider11pos}%);`;
     slider12.style = `transform: translateX(${slider12pos}%);`;
     activeSlide++;
+    if (slider11pos == 0) {
+      dot0.classList.remove('active-dot');
+      dot1.classList.add('active-dot');
+      dot2.classList.remove('active-dot');
+    }
+    if (slider12pos == 0) {
+      dot0.classList.remove('active-dot');
+      dot1.classList.remove('active-dot');
+      dot2.classList.add('active-dot');
+    }
+
   } else {
     slider10pos = 0;
     slider11pos = 110;
@@ -118,6 +134,11 @@ rightArrowKey1.addEventListener('click', function () {
     slider11.style = `transform: translateX(${slider11pos}%);`;
     slider12.style = `transform: translateX(${slider12pos}%);`;
     activeSlide = 0;
+    if (slider10pos == 0) {
+      dot0.classList.add('active-dot');
+      dot1.classList.remove('active-dot');
+      dot2.classList.remove('active-dot');
+    }
   }
   $('#rightArrow1').prop('disabled', true);
   setTimeout(function () {
@@ -135,6 +156,17 @@ leftArrowKey1.addEventListener('click', function () {
     slider11.style = `transform: translateX(${slider11pos}%);`;
     slider12.style = `transform: translateX(${slider12pos}%);`;
     activeSlide--;
+
+    if (slider11pos == 0) {
+      dot0.classList.remove('active-dot');
+      dot1.classList.add('active-dot');
+      dot2.classList.remove('active-dot');
+    }
+    if (slider10pos == 0) {
+      dot0.classList.add('active-dot');
+      dot1.classList.remove('active-dot');
+      dot2.classList.remove('active-dot');
+    }
   }
   else {
     slider10pos = -220;
@@ -144,6 +176,12 @@ leftArrowKey1.addEventListener('click', function () {
     slider11.style = `transform: translateX(${slider11pos}%);`;
     slider12.style = `transform: translateX(${slider12pos}%);`;
     activeSlide = 2;
+    if (slider12pos == 0) {
+      dot0.classList.remove('active-dot');
+      dot1.classList.remove('active-dot');
+      dot2.classList.add('active-dot');
+    }
+
   }
 
   $('#leftArrow1').prop('disabled', true);

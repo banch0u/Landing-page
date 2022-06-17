@@ -850,3 +850,24 @@ hr {
   background: rgba(255, 255, 255, 0.3);
   backdrop-filter: blur(8px);
 }
+
+.dots {
+  display: flex;
+  position: absolute;
+  z-index: 1000;
+  top: 525px;
+  left: 50%;
+}
+
+.dot {
+  height: 10px;
+  width: 10px;
+  background-color: #717171;
+  border-radius: 10px;
+  z-index: 100px;
+  margin: 5px;
+}
+
+.active-dot {
+  background-color: #F0F0F0;
+}
