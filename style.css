@@ -871,3 +871,24 @@ hr {
 .active-dot {
   background-color: #F0F0F0;
 }
+
+.tempo {
+  margin-bottom: 920px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-logo {
+  width: 30%;
+}
+
+.footer-form {
+  width: 30%;
+}
+
+footer div img {
+  width: 155px;
+}
