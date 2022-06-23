@@ -192,3 +192,55 @@ leftArrowKey1.addEventListener('click', function () {
 });
 
 
+// smooth animations
+//nav-about
+const navAbout = document.querySelector('#nav-about');
+const aboutSection = document.querySelector('#about-section');
+navAbout.addEventListener('click', function () {
+  aboutSection.scrollIntoView({ behavior: 'smooth' });
+});
+//nav-schedule
+const navSchedule = document.querySelector('#nav-schedule');
+const scheduleSection = document.querySelector('#schedule-section');
+navSchedule.addEventListener('click', function () {
+  scheduleSection.scrollIntoView({ behavior: 'smooth' });
+});
+//nav-team
+const navTeam = document.querySelector('#nav-team');
+const teamSection = document.querySelector('#team-section');
+navTeam.addEventListener('click', function () {
+  teamSection.scrollIntoView({ behavior: 'smooth' });
+});
+//nav-contacts
+const navContacts = document.querySelector('#nav-contacts');
+const contactsSection = document.querySelector('footer');
+navContacts.addEventListener('click', function () {
+  contactsSection.scrollIntoView({ behavior: 'smooth' });
+});
+//book-seat
+const bookSeat = document.querySelector('#book-seat');
+const pricingSection = document.querySelector('#pricing-section');
+bookSeat.addEventListener('click', function () {
+  pricingSection.scrollIntoView({ behavior: 'smooth' });
+});
+//learn-more
+const learnMore = document.querySelector('#learn-more');
+learnMore.addEventListener('click', function () {
+  aboutSection.scrollIntoView({ behavior: 'smooth' });
+});
+//home
+const home = document.querySelector('#home');
+const header = document.querySelector('header');
+home.addEventListener('click', function () {
+  header.scrollIntoView({ behavior: 'smooth' });
+});
+//speakers
+const speakers = document.querySelector('#speakers');
+speakers.addEventListener('click', function () {
+  teamSection.scrollIntoView({ behavior: 'smooth' });
+});
+//about
+const about = document.querySelector('#about');
+about.addEventListener('click', function () {
+  teamSection.scrollIntoView({ behavior: 'smooth' });
+});
