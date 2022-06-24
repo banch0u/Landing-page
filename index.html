@@ -18,6 +18,22 @@
 </head>
 
 <body>
+  <div class="overlay display-none"></div>
+  <div class="modal_ display-none">
+    <h3>Enter your credentials</h3>
+    <form action="">
+      <label for="nickname">Nickname</label>
+      <input type="text" placeholder="Nickname">
+      <label for="email">Email address</label>
+      <input type="email" placeholder="Email">
+      <label for="password">Password</label>
+      <input type="password" placeholder="Password">
+      <label for="password">Type password again</label>
+      <input type="password" placeholder="Password">
+      <input type="submit" value="REGISTER" class="register-btn mt-4">
+      <a href="">Already have an account?</a>
+    </form>
+  </div>
   <div class="container">
 
     <header>
@@ -38,7 +54,7 @@
             <li class="nav-item"><a class="nav-link" id="nav-team">Team</a></li>
             <li class="nav-item"><a class="nav-link" id="nav-contacts">Contacts</a></li>
           </ul>
-          <button class="register-btn btn-sm-auto">REGISTER NOW</button>
+          <button class="register-btn btn-sm-auto" id="register">REGISTER NOW</button>
         </div>
       </nav>
       <hr>
@@ -481,7 +497,7 @@
             <form action="">
               <input type="text" placeholder="Your Name">
               <input type="email" placeholder="Email address">
-              <input type="submit" value="SUBSCRIBE" class="register-btn mt-3">
+              <input type="submit" value="SUBSCRIBE" class="register-btn_ mt-3">
             </form>
           </div>
 

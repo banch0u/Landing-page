@@ -857,7 +857,7 @@ hr {
 .dots {
   display: flex;
   position: absolute;
-  z-index: 1000;
+  z-index: 400;
   top: 525px;
   left: 50%;
 }
@@ -1064,4 +1064,66 @@ footer article form input {
   .socials p {
     margin-top: 20px;
   }
+}
+
+.overlay {
+
+  backdrop-filter: blur(5px);
+  position: fixed;
+  height: 120%;
+  width: 100%;
+  z-index: 500;
+}
+
+.modal_ {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  height: 50%;
+  width: 35%;
+  background-color: #272727;
+  z-index: 1000;
+  padding: 20px;
+  border-radius: 20px;
+  color: white;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 700;
+}
+
+.modal_ h3 {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 28px;
+  text-align: center;
+  color: #7c7c7c;
+}
+
+.modal_ form {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: auto;
+  color: #7c7c7c;
+}
+
+.modal_ form input {
+  margin-bottom: 10px;
+  background: none;
+  border: none;
+  border-bottom: solid 1px #7c7c7c;
+  color: #7c7c7c;
+}
+
+.modal_ a {
+  margin-top: 10px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.display-none {
+  display: none;
 }

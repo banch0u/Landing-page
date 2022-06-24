@@ -244,3 +244,25 @@ const about = document.querySelector('#about');
 about.addEventListener('click', function () {
   teamSection.scrollIntoView({ behavior: 'smooth' });
 });
+
+
+// modal
+const registerBtn = document.querySelector('#register');
+const modalOverlay = document.querySelector('.overlay');
+const modal = document.querySelector('.modal_');
+
+registerBtn.addEventListener('click', function () {
+  modalOverlay.classList.remove('display-none');
+  modal.classList.remove('display-none');
+});
+modalOverlay.addEventListener('click', function () {
+  modalOverlay.classList.add('display-none');
+  modal.classList.add('display-none');
+});
+
+// modalOverlay.addEventListener('keydown', function (e) {
+//   if (e.key === "Escape") {
+//     modalOverlay.classList.add('display-none');
+//     modal.classList.add('display-none');
+//   }
+// });
